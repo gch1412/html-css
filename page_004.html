@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Imagens e vídeos</h1>
+    <h2>Imagens dinâmicas</h2>
+
+    <p>Imagens podem mudar de tamanho conforme a resolução da tela do dispositivo do qual o site é acessado.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Image_small.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Image_medium.png" type="image/png">
+        <img src="Image_big.png" alt="Foto grande">
+    </picture>
+
+    <h2>Vídeos</h2>
+    <p>Este vídeo está hospeado no meu próprio servidor.</p>
+
+    <video src="Limões.mp4" width = 560 controls></video>
+
+    <p>Este vídeo está hospedado no servidor do Youtube.</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=pXn40F8vskmJcQEJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
