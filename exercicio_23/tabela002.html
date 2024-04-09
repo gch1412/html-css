@@ -9,16 +9,24 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
-            font-size: 1.2em;
-            padding: 10px;
+            font-size: 1.5em;
+            padding: 5px;
         }
 
         thead, tfoot {
-            background-color: gray;
+            background-color: darkslategray;
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: darkslategray;
+
         }
 
         tbody > tr:nth-child(even) {
