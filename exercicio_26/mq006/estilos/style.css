@@ -34,7 +34,7 @@ section#login {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 510px;
     border-radius: 20px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.479);
 
@@ -57,3 +57,91 @@ section#login > div#form {
     display: block;
 }
 
+div#form > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+form > div.campo {
+    width: 100%;
+    margin: 5px 0px;
+
+    height: 30px;
+}
+
+form > div.campo > input {
+    height: 30px;
+
+    transform: translate(-1.5%, -10%);
+
+    width: 88%;
+    font-size: 1.1em;
+    height: 30px;
+    
+    border: 2px solid #49a09d;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px ;
+}
+
+form > div.campo > label > span {
+
+    background-color: #49a09d;
+    height: 100%;
+    text-align: center;
+
+    width: 10.3%;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+div#form > p {
+    text-align: justify;
+    line-height: 1.2em;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+form > input[type = submit] {
+    display: block;
+    border: none;
+    border-radius: 5px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    width: 98%;
+    height: 30px;
+
+    background-color: #49a09d;
+    color: white;
+}
+
+form > input[type = reset] {
+    display: block;
+    border: 2px solid #49a09d;
+    border-radius: 5px;
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    width: 98%;
+    height: 30px;
+
+    background-color: white;
+    color: #49a09d;  
+}
+
+form > input[type = submit]:hover {
+    background-color: #214948;
+    cursor: pointer;
+}
+
+form > input[type = reset]:hover {
+    background-color: rgb(218, 218, 218);
+    color: #214948;;
+    cursor: pointer;
+
+}
