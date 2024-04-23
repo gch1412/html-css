@@ -27,6 +27,20 @@
         font-size: 1.2em;
         line-height: 1.2em;
     }
+
+    form > div.campo > input {
+        height: 30px;
+    
+        transform: translate(-2%, -9.5%);
+    
+        width: 89%;
+        font-size: 1.1em;
+        height: 30px;
+        
+        border: 2px solid #49a09d;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px ;
+    }
     
 }
 
@@ -55,6 +69,20 @@
         text-align: justify;
         font-size: 1.2em;
         line-height: 1.2em;
+    }
+
+    form > div.campo > input {
+        height: 30px;
+    
+        transform: translate(-2%, -9%);
+    
+        width: 89%;
+        font-size: 1.1em;
+        height: 30px;
+        
+        border: 2px solid #49a09d;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px ;
     }
     
     

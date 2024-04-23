@@ -72,7 +72,7 @@ form > div.campo {
 form > div.campo > input {
     height: 30px;
 
-    transform: translate(-1.5%, -10%);
+    transform: translate(-2%, -10%);
 
     width: 88%;
     font-size: 1.1em;
@@ -89,7 +89,7 @@ form > div.campo > label > span {
     height: 100%;
     text-align: center;
 
-    width: 10.3%;
+    width: 10%;
 
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
